@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "words",
+  "info": {
+    "name": "words"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "english": {
+      "type": "string"
+    },
+    "japanese": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "check1": {
+      "type": "boolean"
+    },
+    "check2": {
+      "type": "boolean"
+    },
+    "check3": {
+      "type": "boolean"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "words"
+    }
+  }
+}
