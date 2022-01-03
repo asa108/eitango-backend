@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "words",
   "info": {
-    "name": "words"
+    "name": "words",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,9 +17,6 @@
     },
     "japanese": {
       "type": "string"
-    },
-    "uid": {
-      "type": "uid"
     },
     "check1": {
       "type": "boolean"
